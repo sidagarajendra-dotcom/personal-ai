@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center AI Sparkle / Neural Core within 66dp safe zone (21 to 87) -->
+    <!-- Ambient Radial Glow -->
+    <path
+        android:fillColor="#336366F1"
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0" />
+
+    <!-- Main 4-pointed Gemini AI Sparkle Star -->
+    <path android:pathData="M54,26 C54,41.467 41.467,54 26,54 C41.467,54 54,66.533 54,82 C54,66.533 66.533,54 82,54 C66.533,54 54,41.467 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="26"
+                android:endX="82"
+                android:endY="82"
+                android:type="linear">
+                <item android:color="#38BDF8" android:offset="0.0" />
+                <item android:color="#818CF8" android:offset="0.5" />
+                <item android:color="#C084FC" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Secondary Accent Sparkle (Top-Right) -->
+    <path android:pathData="M74,32 C74,36.5 70.5,40 66,40 C70.5,40 74,43.5 74,48 C74,43.5 77.5,40 82,40 C77.5,40 74,36.5 74,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="66"
+                android:startY="32"
+                android:endX="82"
+                android:endY="48"
+                android:type="linear">
+                <item android:color="#F472B6" android:offset="0.0" />
+                <item android:color="#FB7185" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Luminous Inner Core -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,46 C58.418,46 62,49.582 62,54 C62,58.418 58.418,62 54,62 C49.582,62 46,58.418 46,54 C46,49.582 49.582,46 54,46 Z" />
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M54,50 C56.209,50 58,51.791 58,54 C58,56.209 56.209,58 54,58 C51.791,58 50,56.209 50,54 C50,51.791 51.791,50 54,50 Z" />
+</vector>
